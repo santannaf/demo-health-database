@@ -1,0 +1,21 @@
+
+GET http://localhost:30001/texts
+###
+
+
+POST http://localhost:30001/texts
+Content-Type: application/json
+
+{
+  "text": "qualquer coisa aqui"
+}
+###
+
+
+POST http://localhost:8080/texts
+Content-Type: application/json
+
+{
+  "text": "qualquer coisa aqui"
+}
+###
